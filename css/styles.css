@@ -457,7 +457,8 @@ img {
   width: 170px;
   height: 92px;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -630,6 +631,8 @@ img {
   height: 44px;
   margin-right: 10px;
   background-color: rgba(255, 255, 255, 0.1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon {
